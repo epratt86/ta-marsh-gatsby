@@ -1,0 +1,23 @@
+.text-fields {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.text-input {
+  padding: 1rem;
+  color: #333;
+}
+
+.submit-btn {
+  padding: 1rem;
+  background: #666666;
+  color: #fff;
+  border: none;
+  transition: all ease-in 300ms;
+
+  &:hover {
+    background: #333333;
+  }
+}
