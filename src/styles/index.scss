@@ -10,6 +10,7 @@ body {
   background-color: #f4f4f4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 article,
 aside,
@@ -605,7 +606,7 @@ pre tt:after {
 
 .container {
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 85%;
   padding: 1rem;
 }
 

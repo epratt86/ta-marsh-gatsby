@@ -1,23 +1,29 @@
-.text-fields {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1.2rem;
-  margin-bottom: 1.2rem;
-}
+form {
+  padding-bottom: 1rem;
 
-.text-input {
-  padding: 1rem;
-  color: #333;
-}
+  .text-fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
 
-.submit-btn {
-  padding: 1rem;
-  background: #666666;
-  color: #fff;
-  border: none;
-  transition: all ease-in 300ms;
+  .text-input {
+    padding: 1rem;
+    color: #333;
+  }
 
-  &:hover {
-    background: #333333;
+  .submit-btn {
+    padding: 1rem;
+    background: #6b757d;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all ease-in 300ms;
+
+    &:hover {
+      background: #464646;
+    }
   }
 }

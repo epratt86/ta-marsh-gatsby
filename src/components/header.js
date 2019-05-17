@@ -1,11 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
+import _ from "lodash.throttle"
 import logo from "../img/logo.png"
 
 import headerStyles from "./header.module.scss"
 
 const Header = () => {
   const { header, title, navList, navItem, activeNavItem } = headerStyles
+
+  // Nav opacity on scroll - throttled w/ lodash
+  window.addEventListener(
+    "scroll",
+    _(() => {
+      if (window.scrollY > 200) {
+        document.querySelector("header").style.opacity = 0.9
+      } else {
+        document.querySelector("header").style.opacity = 1
+      }
+    }, 300)
+  )
 
   return (
     <header className={header}>

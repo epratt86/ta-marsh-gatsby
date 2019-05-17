@@ -1,8 +1,11 @@
 .header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 2rem 2rem 0 2rem;
   background: #007bff;
+  z-index: 2;
 
   img {
     width: 299px;

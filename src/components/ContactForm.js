@@ -12,23 +12,27 @@ const ContactForm = () => {
           className={textInput}
           placeholder="Name"
           name="name"
+          required
         />
         <input
           type="email"
           className={textInput}
           placeholder="Email Address"
           name="email"
+          required
         />
         <input
           type="text"
           className={textInput}
           placeholder="Phone Number"
           name="phone"
+          required
         />
         <textarea
           className={textInput}
           placeholder="Enter Message"
           name="message"
+          required
         />
         <button type="submit" className={submitBtn}>
           Submit

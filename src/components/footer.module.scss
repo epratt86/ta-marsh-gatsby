@@ -1,7 +1,8 @@
 .footer {
   background: #232323;
   color: #cccccc;
-  padding: 5rem;
+  margin-top: 8rem;
+  padding: 5rem 0;
 
   .row {
     display: flex;
@@ -13,6 +14,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    p {
+      margin-bottom: 1rem;
+    }
 
     a {
       text-decoration: none;
@@ -32,6 +37,14 @@
 
 @media screen and (max-width: 700px) {
   .footer {
-    padding: 2rem 0;
+    .row {
+      display: block;
+      text-align: center;
+
+      .col:last-child {
+        display: block;
+        margin: 1rem 0;
+      }
+    }
   }
 }
