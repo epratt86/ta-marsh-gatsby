@@ -6,7 +6,7 @@ import "../styles/index.scss"
 import layoutStyles from "./layout.module.scss"
 
 const Layout = props => {
-  const { container, content } = layoutStyles
+  const { content } = layoutStyles
   return (
     <div>
       <Header />
