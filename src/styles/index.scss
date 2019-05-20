@@ -202,7 +202,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #343a40;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -615,6 +615,12 @@ pre tt:after {
   margin: 0 auto;
   max-width: 85%;
   padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
 }
 
 .bg {
