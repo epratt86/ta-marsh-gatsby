@@ -46,7 +46,7 @@ const ContactForm = () => {
         <button type="submit" className={submitBtn}>
           Submit
         </button>
-        <div data-netlify-recaptcha="true" />
+        <div data-netlify-recaptcha="true"> </div>
       </div>
     </form>
   )
