@@ -2,7 +2,7 @@ import React from "react"
 import formStyles from "./ContactForm.module.scss"
 
 const ContactForm = () => {
-  const { textFields, textInput, submitBtn, reCaptcha } = formStyles
+  const { textFields, textInput, submitBtn } = formStyles
 
   return (
     <form
@@ -34,7 +34,9 @@ const ContactForm = () => {
           name="phone"
           required
         />
-        <input name="bot-field" style={{ display: "none" }} />
+        <p style={{ display: "none" }}>
+          <input name="bot-field" />
+        </p>
         <textarea
           className={textInput}
           placeholder="Enter Message"
@@ -44,7 +46,7 @@ const ContactForm = () => {
         <button type="submit" className={submitBtn}>
           Submit
         </button>
-        <div className={reCaptcha} data-netlify-recaptcha="true" />
+        <div data-netlify-recaptcha="true" />
       </div>
     </form>
   )
