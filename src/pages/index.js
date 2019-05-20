@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { FaArrowRight, FaHandshake, FaHome, FaHammer } from "react-icons/fa"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import Testimonials from "../components/Testimonials"
 import ContactForm from "../components/ContactForm"
 import indexStyles from "./index.module.scss"
 
@@ -68,7 +69,8 @@ const IndexPage = () => {
           </div>
         </section>
       </div>
-      <div id={contact} style={{ background: "#007bff" }}>
+      <Testimonials />
+      <div id={contact} className="bg-primary">
         <div className="container">
           <h5 style={{ paddingTop: "2rem" }}>We Offer FREE Consultations</h5>
           <h6 style={{ paddingBottom: "2rem" }}>

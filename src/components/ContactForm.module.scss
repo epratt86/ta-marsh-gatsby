@@ -15,15 +15,16 @@ form {
 
   .submit-btn {
     padding: 1rem;
-    background: #6b757d;
+    background: #dc3545;
     color: #fff;
     border: none;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     transition: all ease-in 300ms;
+    margin-top: 1rem;
 
     &:hover {
-      background: #464646;
+      background: #92303a;
     }
   }
 }
