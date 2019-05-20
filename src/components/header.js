@@ -9,16 +9,20 @@ const Header = () => {
   const { header, title, navList, navItem, activeNavItem } = headerStyles
 
   // Nav opacity on scroll - throttled w/ lodash
-  window.addEventListener(
-    "scroll",
-    _(() => {
-      if (window.scrollY > 200) {
-        document.querySelector("header").style.opacity = 0.9
-      } else {
-        document.querySelector("header").style.opacity = 1
-      }
-    }, 300)
-  )
+  try {
+    window.addEventListener(
+      "scroll",
+      _(() => {
+        if (window.scrollY > 200) {
+          document.querySelector("header").style.opacity = 0.9
+        } else {
+          document.querySelector("header").style.opacity = 1
+        }
+      }, 300)
+    )
+  } catch (err) {
+    console.log("error message: ", err)
+  }
 
   return (
     <header className={header}>
