@@ -1,4 +1,4 @@
-#about {
+#services {
   .banner {
     background: url("../img/roof-angle.jpg") no-repeat;
     background-attachment: fixed;
@@ -29,33 +29,34 @@
       }
     }
   }
-  .content {
-    .row {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      grid-gap: 1rem;
-      padding-bottom: 3rem;
 
-      .col {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+  .row {
+    display: flex;
+    justify-content: space-between;
+    .col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1rem 0;
+      h2 {
+        margin-top: 2rem;
+      }
 
-        h2 {
-          margin-top: 2rem;
-        }
-
-        img {
-          border-radius: 1rem;
-        }
+      img {
+        border-radius: 1rem;
+        max-width: 550px;
       }
     }
-    @media screen and (max-width: 700px) {
-      .row {
-        display: block;
-      }
-      img {
-        display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .row {
+      display: block;
+      .col {
+        padding: 0;
+        img {
+          display: none;
+        }
       }
     }
   }

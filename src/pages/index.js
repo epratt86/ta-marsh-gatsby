@@ -8,7 +8,15 @@ import ContactForm from "../components/ContactForm"
 import indexStyles from "./index.module.scss"
 
 const IndexPage = () => {
-  const { btn, cta, callToAction, strip, section, contact } = indexStyles
+  const {
+    btn,
+    cta,
+    callToAction,
+    strip,
+    section,
+    contact,
+    headline,
+  } = indexStyles
 
   return (
     <Layout>
@@ -32,7 +40,7 @@ const IndexPage = () => {
       </section>
       {/* 3 col section */}
       <div className="container">
-        <h2>Welcome to TA Marsh Roofing</h2>
+        <h2 className={headline}>Welcome to TA Marsh Roofing</h2>
         <section id={strip}>
           <div className={section}>
             <FaHandshake size={70} style={{ marginTop: "10px" }} />

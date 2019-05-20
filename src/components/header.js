@@ -47,7 +47,7 @@ const Header = () => {
             <Link
               className={navItem}
               activeClassName={activeNavItem}
-              to="/blog"
+              to="/services"
             >
               Services
             </Link>

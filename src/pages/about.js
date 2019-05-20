@@ -9,7 +9,7 @@ const AboutPage = () => {
     <Layout>
       <Head title="About" />
       <section id={AboutStyles.about}>
-        <div className={AboutStyles.header}>
+        <div className={AboutStyles.banner}>
           <div className="container">
             <h1>About TA Marsh Roofing</h1>
             <h4>Find out what seperates us from the rest</h4>
