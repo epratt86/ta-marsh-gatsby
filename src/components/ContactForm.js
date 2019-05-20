@@ -33,7 +33,7 @@ const ContactForm = () => {
           name="phone"
           required
         />
-        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
         <textarea
           className={textInput}
           placeholder="Enter Message"
