@@ -11,7 +11,10 @@ const ServicesPage = () => {
   const { services, banner, row, col } = ServicesStyles
   return (
     <Layout>
-      <Head title="Services" />
+      <Head
+        title="Services"
+        description="TA Marsh provides an array of services. We take care of roofing systems and service of existing and new roofs. We do industrial, commercial and residential roofing. We can also help with legal consultation and general contracting."
+      />
       <section id={services}>
         <div className={banner}>
           <div className="container">

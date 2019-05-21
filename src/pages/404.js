@@ -7,7 +7,10 @@ import Head from "../components/head"
 const NotFound = () => {
   return (
     <Layout>
-      <Head title="Page Not Found" />
+      <Head
+        title="Page Not Found"
+        description="Sorry but this page was not found. Please contact us with any questions."
+      />
       <h1>Whoops! That page was not found.</h1>
       <p>
         <Link to="/">Head Home</Link>

@@ -24,7 +24,11 @@ const Footer = () => {
             <p>License: CA #440346</p>
             <p>AZ #150919</p>
             <p style={{ marginBottom: "4rem" }}>NV #0045850</p>
-            <a href="https://www.epratt.net" target="_blank">
+            <a
+              href="https://www.epratt.net"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               site by ePratt.net
             </a>
           </div>

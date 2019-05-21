@@ -7,7 +7,10 @@ import designPlans from "../img/design-plans.jpg"
 const AboutPage = () => {
   return (
     <Layout>
-      <Head title="About" />
+      <Head
+        title="About"
+        description="We specialize in re-roofing, repairs of all types and sheet metal roof systems. TA Marsh Roofing is a roofing company which has been operating in San Diego, CA for the last 36 years. We specialize in roof repairs and sheet metal roofing and legal consultation."
+      />
       <section id={AboutStyles.about}>
         <div className={AboutStyles.banner}>
           <div className="container">

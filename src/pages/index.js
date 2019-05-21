@@ -20,7 +20,10 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Head title="Home" />
+      <Head
+        title="Home"
+        description="TA Marsh Roofing provides multiple services across San Diego County. Find out how we can help you!"
+      />
       {/* Call To Action */}
       <section id={cta}>
         <div className={callToAction}>

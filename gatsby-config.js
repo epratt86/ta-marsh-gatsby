@@ -4,6 +4,8 @@ module.exports = {
   siteMetadata: {
     title: "TA Marsh Roofing",
     author: "epratt.net",
+    description:
+      "TA Marsh Roofing provides multiple services across San Diego County. Find out how we can help you!",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

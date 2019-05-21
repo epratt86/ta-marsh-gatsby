@@ -9,7 +9,10 @@ const ContactPage = () => {
   const { contact, banner, card, row, form } = ContactStyles
   return (
     <Layout>
-      <Head title="Contact" />
+      <Head
+        title="Contact"
+        description="Please use the contact form to get in touch with someone today. Also feel free to give us a call anytime at 619-669-1600"
+      />
       <section id={contact}>
         <div className={banner}>
           <div className="container">
