@@ -193,13 +193,7 @@ html {
   overflow-y: scroll;
 }
 * {
-  box-sizing: inherit;
-}
-*:before {
-  box-sizing: inherit;
-}
-*:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 body {
   color: #343a40;
